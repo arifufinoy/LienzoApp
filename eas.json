@@ -1,0 +1,12 @@
+{
+  "cli": { "version": ">= 18.0.0", "appVersionSource": "local" },
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "android": { "buildType": "apk" },
+      "env": {
+        "EXPO_PUBLIC_MOCKAPI_BASE_URL": "https://6ade41964e88f1bba4a50ff8.mockapi.io"
+      }
+    }
+  }
+}
